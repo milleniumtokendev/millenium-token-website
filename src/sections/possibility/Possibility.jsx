@@ -11,7 +11,7 @@ const Possibility = () => (
       <h1 className="gradient__text">The possibilities are <br /> beyond your imagination</h1>
       <p>The possibilities beyond your dreams are here. We will take a big step towards the future. Are you ready for this?</p>
       <h4>
-        <a href="#">
+        <a href="#home">
           <button type="button" className='mil-btn'>BUY MILT</button> 
         </a> 
       </h4>
