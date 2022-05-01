@@ -1,0 +1,26 @@
+.chart-main{
+    width: 80%;
+    margin: auto;
+}
+.donutchart{
+    width: 100% !important;
+    margin: auto;
+}
+.donutchart-innertext,.donutchart-legend{
+    fill: #fff !important;
+}
+@media screen and (max-width:945px) {
+    .chart-main{
+        width: 130%;
+    }
+    .donutchart{
+        width: 100% !important;
+        margin: auto;
+        margin-left: 3%;
+    }
+    .donutchart .donutchart-legend{
+        display: none;
+    }
+}
+
+

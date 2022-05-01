@@ -1,0 +1,20 @@
+.Video{
+    width: 86.8%;
+    height: auto;
+    margin: auto;
+   
+}
+.Video .video-wrapper{
+    width: 100% !important;
+    height: 100% !important;
+    position: relative;
+}
+.Video .video-wrapper video{
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
