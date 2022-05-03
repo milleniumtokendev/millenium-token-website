@@ -6,7 +6,8 @@ import './Tokenomic.css'
 //grafik üzerindeki veriler
 const graph = [
     {label:'Lock',value:30},
-    {label:'Marketing',value:10}            
+    {label:'Marketing',value:10},
+    {label:'Circulation',value:70}            
 ]
 
 const Tokenomic = () => {

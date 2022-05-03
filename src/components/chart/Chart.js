@@ -8,9 +8,9 @@ const Chart = ({graph}) => {
             <DonutChart
                 data={graph}
                 colors={[
-                    '#81AFDD',//marketing
-                    '#9c27b0',//team
-                    '#084d92' //pancake swap
+                    '#81AFDD',//1
+                    '#084d92',//2
+                    '#9c27b0' //3
                 ]}
                 className='donutchart'
                 onMouseEnter={(item) => console.log(`mousing entering: ${item.label}`)}
