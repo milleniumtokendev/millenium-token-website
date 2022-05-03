@@ -21,24 +21,25 @@ const Tokenomic = () => {
                         <li>
                             <Feature title="Total Supply" text="1.000.000.000" />
                         </li>
+                        <h2 className="trans-head"> <div></div> Buy</h2>
                         <li>
-                            <Feature title="Marketing" text="200,000,000 (20%)" />
+                            <Feature title="Rewards" text="8%" />
                         </li>
                         <li>
-                            <Feature title="Team" text="120,000,000 (12%)" />
+                            <Feature title="Liquidity" text="2%" />
                         </li>
                         <li>
-                            <Feature title="PancakeSwap" text="680,000,000 (68%)" />
+                            <Feature title="Marketing" text="4%" />
                         </li>
-                        <h2 className="trans-head"> <div></div> Transaction Fees</h2>
+                        <h2 className="trans-head"> <div></div> Sell</h2>
                         <li>
-                            <Feature title="Busd Reward" text="5%" />
-                        </li>
-                        <li>
-                            <Feature title="Marketing Fee" text="1%" />
+                            <Feature title="Rewards" text="8%" />
                         </li>
                         <li>
-                            <Feature title="Add to Liquidity" text="4%" />
+                            <Feature title="Marketing" text="4%" />
+                        </li>
+                        <li>
+                            <Feature title="Liquidity" text="4%" />
                         </li>
                     </ul>
                 </div>
