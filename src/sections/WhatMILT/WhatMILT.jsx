@@ -25,7 +25,7 @@ const WhatMILT = () => (
     </div>
     <div className="gpt3__whatgpt3-container">
       <Feature title="Join Telegram" text={(
-        <a href="https://t.me/millenium_TokennGLOBAL" className='social-icon'>
+        <a href="https://t.me/milleniumtokenn" className='social-icon'>
           <RiTelegramFill />
         </a>
       )}/>

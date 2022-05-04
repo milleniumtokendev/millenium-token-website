@@ -10,7 +10,7 @@ const Footer = () => (
 
     <div className="gpt3__footer-btn">
       <button className='mil-btn'>
-        <a href="http://t.me/">
+        <a href="https://pancakeswap.finance/swap">
           Buy Now !
         </a>
       </button>
@@ -38,7 +38,7 @@ const Footer = () => (
       <div className="gpt3__footer-links_div">
         <h4>Millenium Token</h4>
         <p>
-          <a href="#home" className='footer-link'>Buy</a>
+          <a href="https://pancakeswap.finance/swap" className='footer-link'>Buy</a>
         </p>
         <p>
           <a href="#pancake" className='footer-link'>Pancakeswap</a>
@@ -53,10 +53,10 @@ const Footer = () => (
           <a href="email:milleniumtoken@millenium.com" className='footer-link'>contact@millenium.com</a>
         </p>
         <p>
-          <a href="#telegram" className='footer-link'>Telegram</a>
+          <a href="https://t.me/milleniumtokenn" className='footer-link'>Telegram</a>
         </p>
         <p>
-          <a href="#twitter" className='footer-link'>Twitter</a>
+          <a href="https://twitter.com/TokenMillenium" className='footer-link'>Twitter</a>
         </p>
       </div>
     </div>

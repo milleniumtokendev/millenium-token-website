@@ -38,7 +38,7 @@ const Features = () => (
   <div className="gpt3__features section__padding" id="features">
     <div className="gpt3__features-heading">
       <h1 className="gradient__text">The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.</h1>
-      <p><a href="http://" className='mil-btn'>BUY MILT</a></p>
+      <p><a href="https://pancakeswap.finance/swap" className='mil-btn'>BUY MILT</a></p>
     </div>
     <div className="gpt3__features-container">
       {featuresData.map((item, index) => (
