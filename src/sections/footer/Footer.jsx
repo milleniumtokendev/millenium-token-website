@@ -53,10 +53,13 @@ const Footer = () => (
           <a href="email:milleniumtoken@millenium.com" className='footer-link'>contact@millenium.com</a>
         </p>
         <p>
-          <a href="https://t.me/milleniumtokenn" className='footer-link'>Telegram</a>
+          <a href="https://t.me/MillenniumtokenEN" className='footer-link'>Global Telegram</a>
         </p>
         <p>
-          <a href="https://twitter.com/TokenMillenium" className='footer-link'>Twitter</a>
+        <a href="https://t.me/MillenniumtokenTR" className='footer-link'>TR Telegram</a>
+        </p>
+        <p>
+          <a href="https://twitter.com/Tokenmillennium" className='footer-link'>Twitter</a>
         </p>
       </div>
     </div>

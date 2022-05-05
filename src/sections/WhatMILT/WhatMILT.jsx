@@ -24,13 +24,18 @@ const WhatMILT = () => (
       </p>
     </div>
     <div className="gpt3__whatgpt3-container">
-      <Feature title="Join Telegram" text={(
-        <a href="https://t.me/milleniumtokenn" className='social-icon'>
+      <Feature title="Join Global Telegram" text={(
+        <a href="https://t.me/MillenniumtokenEN" className='social-icon'>
+          <RiTelegramFill />
+        </a>
+      )}/>
+       <Feature title="Join TR Telegram" text={(
+        <a href="https://t.me/MillenniumtokenTR" className='social-icon'>
           <RiTelegramFill />
         </a>
       )}/>
        <Feature title="Join Twitter" text={(
-        <a href="https://twitter.com/TokenMillenium" className='social-icon'>
+        <a href="https://twitter.com/Tokenmillennium" className='social-icon'>
           <RiTwitterFill />
         </a>
       )}/>
