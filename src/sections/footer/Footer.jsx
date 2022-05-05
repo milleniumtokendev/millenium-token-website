@@ -50,7 +50,7 @@ const Footer = () => (
       <div className="gpt3__footer-links_div">
         <h4>Contact</h4>
         <p>
-          <a href="email:milleniumtoken@millenium.com" className='footer-link'>contact@millenium.com</a>
+          <a href="email: info@millenniumtoken.com" className='footer-link'>info@millenniumtoken.com</a>
         </p>
         <p>
           <a href="https://t.me/MillenniumtokenEN" className='footer-link'>Global Telegram</a>
