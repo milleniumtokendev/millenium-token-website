@@ -9,7 +9,7 @@ const CTA = () => (
     </div>
     <div className="gpt3__cta-btn">
       <button type="button" className='mil-btn'>
-        <a href="http://t.me/" >Join Us</a>
+        <a href="https://twitter.com/Tokenmillennium"  target="_blank" rel="noopener noreferrer">Join Us</a>
       </button>
     </div>
   </div>

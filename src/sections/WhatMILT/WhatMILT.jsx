@@ -17,7 +17,7 @@ const WhatMILT = () => (
         The Beautiful Face of the Millennium !
       </h1>
       <p>
-        <a href="#Home">
+        <a href="https://t.me/MillenniumtokenEN" className='social-icon' target="_blank" rel="noopener noreferrer">
         Join the MILT Project. Catch the future yourself!
         </a>
         
@@ -25,17 +25,17 @@ const WhatMILT = () => (
     </div>
     <div className="gpt3__whatgpt3-container">
       <Feature title="Join Global Telegram" text={(
-        <a href="https://t.me/MillenniumtokenEN" className='social-icon'>
+        <a href="https://t.me/MillenniumtokenEN" className='social-icon' target="_blank" rel="noopener noreferrer">
           <RiTelegramFill />
         </a>
       )}/>
        <Feature title="Join TR Telegram" text={(
-        <a href="https://t.me/MillenniumtokenTR" className='social-icon'>
+        <a href="https://t.me/MillenniumtokenTR" className='social-icon' target="_blank" rel="noopener noreferrer">
           <RiTelegramFill />
         </a>
       )}/>
        <Feature title="Join Twitter" text={(
-        <a href="https://twitter.com/Tokenmillennium" className='social-icon'>
+        <a href="https://twitter.com/Tokenmillennium" className='social-icon' target="_blank" rel="noopener noreferrer">
           <RiTwitterFill />
         </a>
       )}/>

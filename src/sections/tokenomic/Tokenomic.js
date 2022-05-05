@@ -23,7 +23,7 @@ const Tokenomic = () => {
                         </li>
                         <h2 className="trans-head"> <div></div> Buy</h2>
                         <li>
-                            <Feature title="Rewards" text="8%" />
+                            <Feature title="Rewards" text="4%" />
                         </li>
                         <li>
                             <Feature title="Liquidity" text="2%" />
@@ -33,13 +33,13 @@ const Tokenomic = () => {
                         </li>
                         <h2 className="trans-head"> <div></div> Sell</h2>
                         <li>
-                            <Feature title="Rewards" text="8%" />
+                            <Feature title="Rewards" text="4%" />
                         </li>
                         <li>
                             <Feature title="Marketing" text="4%" />
                         </li>
                         <li>
-                            <Feature title="Liquidity" text="4%" />
+                            <Feature title="Liquidity" text="3%" />
                         </li>
                     </ul>
                 </div>

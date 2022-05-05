@@ -17,12 +17,12 @@ const Navbar = () => {
             <p><a href="#whatIsMILT">What is MILT?</a></p>
             <p><a href="#tokenomics">Tokenomics</a></p>
             <p><a href="#roadmap">Roadmap</a></p>
-            <p><a href="#whitepaper">Whitepaper</a></p>
-            <p><a href="https://bscscan.com/token/0x38d1b5ea57bcb8a92e3e7692706623239758b871" target="_blank">BSC SCAN</a></p>
+            <p><a href="#whitepaper" target="_blank" rel="noopener noreferrer">Whitepaper</a></p>
+            <p><a href="https://bscscan.com/token/0x38d1b5ea57bcb8a92e3e7692706623239758b871" target="_blank" rel="noopener noreferrer">BSC SCAN</a></p>
           </div>
         </div>
         <div className="gpt3__navbar-sign">
-            <a href='https://pancakeswap.finance/swap' className='mil-btn' target="_blank">BUY MILT</a>
+            <a href='https://pancakeswap.finance/swap' className='mil-btn' target="_blank" rel="noopener noreferrer">BUY MILT</a>
         </div>
         <div className="gpt3__navbar-menu">
           {toggleMenu
@@ -35,11 +35,11 @@ const Navbar = () => {
             <p><a href="#whatIsMILT">What is MILT?</a></p>
             <p><a href="#tokenomics">Tokenomics</a></p>
             <p><a href="#roadmap">Roadmap</a></p>
-            <p><a href="#whitepaper">Whitepaper</a></p>
-            <p><a href=" https://bscscan.com/token/0x38d1b5ea57bcb8a92e3e7692706623239758b871">BSC SCAN</a></p>
+            <p><a href="#whitepaper" target="_blank" rel="noopener noreferrer">Whitepaper</a></p>
+            <p><a href=" https://bscscan.com/token/0x38d1b5ea57bcb8a92e3e7692706623239758b871" target="_blank" rel="noopener noreferrer">BSC SCAN</a></p>
             </div>
             <div className="gpt3__navbar-menu_container-links-sign">
-            <a href='https://pancakeswap.finance/swap' className='mil-btn' target="_blank">BUY MILT</a>
+            <a href='https://pancakeswap.finance/swap' className='mil-btn' target="_blank" rel="noopener noreferrer" >BUY MILT</a>
             </div>
           </div>
           )}
