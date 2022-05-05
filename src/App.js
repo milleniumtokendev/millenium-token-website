@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import video1 from './assets/fire.MP4';
 import video2 from './assets/ice.MP4';
 
@@ -18,15 +18,15 @@ import Footer from './sections/footer/Footer'
 import Tokenomic from './sections/tokenomic/Tokenomic';
 import Roadmap from './sections/roadmap/Roadmap';
 
- class App extends Component {
-  render() {
+function App () {
+  
     return (
       <div className='App'>
         <div className="gradient__bg" id='Home'>
           <Navbar/>
           <Header/>
         </div>
-        <Brand />
+        
         <Possibility />
         <WhatMILT />
         <Video video={video1}/>
@@ -34,11 +34,10 @@ import Roadmap from './sections/roadmap/Roadmap';
         <Tokenomic/>
         <Video video={video2}/>
         <Roadmap/>
-        <Brand />
+        
         <CTA />
         <Footer />
       </div>
     )
-  }
 }
 export default App;
