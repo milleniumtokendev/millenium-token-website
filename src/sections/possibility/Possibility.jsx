@@ -12,7 +12,7 @@ const Possibility = () => (
       <p>The possibilities beyond your dreams are here. We will take a big step towards the future. Are you ready for this?</p>
       <h4>
         <a href="https://pancakeswap.finance/swap">
-          <button type="button" className='mil-btn'>BUY MILT</button> 
+          <button type="button" className='mil-btn' target="_blank">BUY MILT</button> 
         </a> 
       </h4>
     </div>

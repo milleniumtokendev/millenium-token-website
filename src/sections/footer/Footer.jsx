@@ -10,7 +10,7 @@ const Footer = () => (
 
     <div className="gpt3__footer-btn">
       <button className='mil-btn'>
-        <a href="https://pancakeswap.finance/swap">
+        <a href="https://pancakeswap.finance/swap" target="_blank">
           Buy Now !
         </a>
       </button>
@@ -50,7 +50,7 @@ const Footer = () => (
       <div className="gpt3__footer-links_div">
         <h4>Contact</h4>
         <p>
-          <a href="email:info@millenniumtoken.com" className='footer-link'>info@millenniumtoken.com</a>
+          <a href="mailto:info@millenniumtoken.com" className='footer-link'>info@millenniumtoken.com </a>
         </p>
         <p>
           <a href="https://t.me/MillenniumtokenEN" className='footer-link'>Global Telegram</a>
