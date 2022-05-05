@@ -2,12 +2,15 @@ import React from 'react';
 import ai from '../../assets/ai.png';
 import './Header.css';
 
-const Header = () => (
+const Header = (props) =>{
+  const content = props.contents;
+
+return (
     <div className="gpt3__header section__padding" id="home">
       <div className="gpt3__header-content">
-        <h1 className="gradient__text">The Beautiful Face of the Millennium &apos;</h1>
+        <h1 className="gradient__text">{content.bannerHead} &apos;</h1>
         <p>
-        MILT is a social action approach based on various factors such as value creation, NFT market, marketing channels and partnership.
+        {content.bannerText}
         </p>
       </div>
   
@@ -16,5 +19,5 @@ const Header = () => (
       </div>
     </div>
   );
-  
-  export default Header;
+}  
+export default Header;

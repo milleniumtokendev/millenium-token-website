@@ -3,9 +3,10 @@ import './Navbar.css';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/millenium-logo.png';
 
-const Navbar = () => {
+function Navbar(props){
     const [toggleMenu, setToggleMenu] = useState(false);
-  
+    const content = props.contents;
+
     return (
       <div className="gpt3__navbar">
         <div className="gpt3__navbar-links">
@@ -13,16 +14,17 @@ const Navbar = () => {
             <img src={logo} alt='milennium token' />
           </div>
           <div className="gpt3__navbar-links_container">
-            <p><a href="#home">Home</a></p>
-            <p><a href="#whatIsMILT">What is MILT?</a></p>
-            <p><a href="#tokenomics">Tokenomics</a></p>
-            <p><a href="#roadmap">Roadmap</a></p>
-            <p><a href="#whitepaper" target="_blank" rel="noopener noreferrer">Whitepaper</a></p>
-            <p><a href="https://bscscan.com/token/0x38d1b5ea57bcb8a92e3e7692706623239758b871" target="_blank" rel="noopener noreferrer">BSC SCAN</a></p>
+            <p><a href="#home">{content.home}</a></p>
+            <p><a href="#whatIsMILT">{content.whatMILT}</a></p>
+            <p><a href="#tokenomics">{content.tokenomic}</a></p>
+            <p><a href="#roadmap">{content.roadmap}</a></p>
+            <p><a href="#whitepaper" target="_blank" rel="noopener noreferrer">{content.whitepaper}</a></p>
+            <p><a href="https://bscscan.com/token/0x38d1b5ea57bcb8a92e3e7692706623239758b871" target="_blank" rel="noopener noreferrer">{content.bscScan}</a></p>
           </div>
         </div>
         <div className="gpt3__navbar-sign">
-            <a href='https://pancakeswap.finance/swap' className='mil-btn' target="_blank" rel="noopener noreferrer">BUY MILT</a>
+          
+            <a href='https://pancakeswap.finance/swap' className='mil-btn' target="_blank" rel="noopener noreferrer">{content.buyMILT}</a>
         </div>
         <div className="gpt3__navbar-menu">
           {toggleMenu

@@ -4,42 +4,44 @@ import Feature from "../../components/feature/Feature";
 import './Tokenomic.css'
 
 //grafik üzerindeki veriler
-const graph = [
-    {label:'Lock',value:30},
-    {label:'Marketing',value:10},
-    {label:'Circulation',value:70}            
-]
 
-const Tokenomic = () => {
+
+const Tokenomic = (props) => {
+    const content = props.contents;
+    const graph = [
+        {label:content.lock,value:30},
+        {label:content.marketing,value:10},
+        {label:content.circulation,value:70}            
+    ]
+
     return(
-        
        <div className="tokenomic-main">
-           <h1 className="sec-head">TOKENOMIC</h1>
+           <h1 className="sec-head"> {content.tokenomic}</h1>
             <div className="tokenomic" id="tokenomics">
                 <div className="content">
                     <ul>
                         <li>
-                            <Feature title="Total Supply" text="1.000.000.000" />
+                            <Feature title= {content.totalSupply} text="1.000.000.000" />
                         </li>
-                        <h2 className="trans-head"> <div></div> Buy</h2>
+                        <h2 className="trans-head"> <div></div>  {content.buy}</h2>
                         <li>
-                            <Feature title="Rewards" text="4%" />
-                        </li>
-                        <li>
-                            <Feature title="Liquidity" text="2%" />
+                            <Feature title= {content.rewards} text="4%" />
                         </li>
                         <li>
-                            <Feature title="Marketing" text="4%" />
+                            <Feature title= {content.liquidity} text="2%" />
+                        </li>
+                        <li>
+                            <Feature title= {content.marketing} text="4%" />
                         </li>
                         <h2 className="trans-head"> <div></div> Sell</h2>
                         <li>
-                            <Feature title="Rewards" text="4%" />
+                            <Feature title= {content.rewards} text="4%" />
                         </li>
                         <li>
-                            <Feature title="Marketing" text="4%" />
+                            <Feature title={content.marketing} text="4%" />
                         </li>
                         <li>
-                            <Feature title="Liquidity" text="3%" />
+                            <Feature title={content.liquidity} text="3%" />
                         </li>
                     </ul>
                 </div>

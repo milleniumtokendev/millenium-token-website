@@ -2,38 +2,42 @@ import React from "react";
 import Phase from "../../components/phase/Phase";
 import "./Roadmap.css";
 
-const phaseRoad = {
-    phase1:[
-        'Community Creation',
-        'Website Design and Development',
-        'Infrastructure Works',
-        'Fair Launch',
-        'Pancakeswap Listing',
-        'Advertising works',
-        '500+ Investors',
-    ],
-    phase2:[
-        'Airdrop',
-        '1000+ Investors',
-        'NFT Market Creation',
-        'Cg-cmc Reference',
-        'Partnership Agreements'
-    ],
-    phase3:[
-        '1500+ Investors',
-        'First CEX Listing'
-    ],
-    phase4:[
-        'First DEX Exchange Listing',
-        'Setting Up Your Own SWAP Exchange',
-        'Determining the New Roadmap'
-    ]
-}
 
-const Roadmap = () => {
+
+const Roadmap = (props) => {
+    const content = props.contents;
+    const phaseRoad = {
+        phase1:[
+            content.phase1.a,
+            content.phase1.b,
+            content.phase1.c,
+            content.phase1.d,
+            content.phase1.e,
+            content.phase1.f,
+            content.phase1.g
+        ],
+        phase2:[
+            content.phase2.a,
+            content.phase2.b,
+            content.phase2.c,
+            content.phase2.d,
+            content.phase2.e
+           
+        ],
+        phase3:[
+            content.phase3.a,
+            content.phase3.b
+        ],
+        phase4:[
+            content.phase4.a,
+            content.phase4.b,
+            content.phase4.c
+        ]
+    }
+
     return(
        <div className="roadmap">
-           <h1 className="sec-head">ROADMAP</h1>
+           <h1 className="sec-head">{content.roadmap}</h1>
             <div className="roadmap-wrap" id="roadmap">
                <div className="phase">
                 <Phase number={1} roads={phaseRoad.phase1}/>

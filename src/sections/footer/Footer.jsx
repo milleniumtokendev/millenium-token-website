@@ -5,20 +5,20 @@ import './footer.css';
 
 
 
-const Footer = () =>{
+const Footer = (props) =>{
   
-
+const content = props.contents;
 
   return (
   <div className="gpt3__footer section__padding">
     <div className="gpt3__footer-heading">
-      <h1 className="gradient__text">Do you want to step in to the future before others</h1>
+      <h1 className="gradient__text">{content.footerHead}</h1>
     </div>
 
     <div className="gpt3__footer-btn">
       <button className='mil-btn'>
         <a href='https://pancakeswap.finance/swap' target="_blank" rel="noopener noreferrer">
-          Buy Now !
+        {content.buyNow}
         </a>
       </button>
     </div>
@@ -30,22 +30,22 @@ const Footer = () =>{
       <div className="gpt3__footer-links_div">
         <h4>Links</h4>
         <p>
-          <a href="#home" className='footer-link'>Home</a>
+          <a href="#home" className='footer-link'>{content.home}</a>
         </p>
         <p>
-          <a href="#whatIsMILT" className='footer-link'>What is MILT ?</a>
+          <a href="#whatIsMILT" className='footer-link'>{content.whatMILT}</a>
         </p>
         <p>
-          <a href="#tokenomics" className='footer-link'>Tokenomics</a>
+          <a href="#tokenomics" className='footer-link'>{content.tokenomic}</a>
         </p>
         <p>
-          <a href="#roadmap" className='footer-link'>Roadmap</a>
+          <a href="#roadmap" className='footer-link'>{content.roadmap}</a>
         </p>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Millenium Token</h4>
         <p>
-          <a href="https://pancakeswap.finance/swap" className='footer-link' target="_blank" rel="noopener noreferrer">Buy</a>
+          <a href="https://pancakeswap.finance/swap" className='footer-link' target="_blank" rel="noopener noreferrer">{content.buy}</a>
         </p>
         <p>
           <a href="https://pancakeswap.finance/swap"className='footer-link' target="_blank" rel="noopener noreferrer">Pancakeswap</a>
@@ -72,7 +72,7 @@ const Footer = () =>{
     </div>
 
     <div className="gpt3__footer-copyright">
-      <p>@2022 Millenium Token. All rights reserved.</p>
+      <p>{content.footerCopyright}</p>
     </div>
   </div>
 )};

@@ -1,6 +1,7 @@
-import React from 'react'
-import video1 from './assets/fire.MP4';
-import video2 from './assets/ice.MP4';
+import React, { useState } from 'react';
+
+//Contexts
+import LangContext,{langs} from './context/locales/langContext';
 
 //CSS
 import './App.css'
@@ -17,26 +18,40 @@ import Footer from './sections/footer/Footer'
 import Tokenomic from './sections/tokenomic/Tokenomic';
 import Roadmap from './sections/roadmap/Roadmap';
 
+//Video
+import video1 from './assets/fire.MP4';
+import video2 from './assets/ice.MP4';
+import Changelang from './components/lang/Changelang';
+
 function App () {
+  const [lang,setLang] = useState(langs.EN);
+  const [selectedLang,setSelectedLang] = useState("EN");
+  const changeLanguage = () => {
+    setSelectedLang(lang === "EN" ? "TR" : "EN");
+    lang === langs.EN ? setLang(langs.TR) : setLang(langs.EN);
+  }
   
+  // const content = props.contents;
+  // {content.}
     return (
-      <div className='App'>
-        <div className="gradient__bg" id='Home'>
-          <Navbar/>
-          <Header/>
+      <LangContext.Provider value={{lang}}>
+        <div className='App'>
+          <div className="gradient__bg" id='Home'>
+            <Changelang lang={selectedLang} contents={lang} changeLanguage={changeLanguage.bind(this)}/>
+            <Navbar contents={lang}/>
+            <Header contents={lang}/>
+          </div> 
+          <Possibility contents={lang}/>
+          <WhatMILT contents={lang}/>
+          <Video video={video1} contents={lang}/>
+          <Features contents={lang}/>
+          <Tokenomic contents={lang}/>
+          <Video video={video2} contents={lang}/>
+          <Roadmap contents={lang}/>
+          <CTA contents={lang}/>
+          <Footer contents={lang}/>
         </div>
-        
-        <Possibility />
-        <WhatMILT />
-        <Video video={video1}/>
-        <Features />
-        <Tokenomic/>
-        <Video video={video2}/>
-        <Roadmap/>
-        
-        <CTA />
-        <Footer />
-      </div>
+      </LangContext.Provider>
     )
 }
 export default App;
