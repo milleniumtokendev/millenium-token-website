@@ -8,7 +8,6 @@ import './App.css'
 //Components
 import Navbar from './components/Navbar/Navbar';
 import Header from './sections/Header/Header';
-import Brand from './components/brand/Brand';
 import WhatMILT from './sections/WhatMILT/WhatMILT';
 import Features from './sections/features/Features';
 import Video from './components/video/Video';
