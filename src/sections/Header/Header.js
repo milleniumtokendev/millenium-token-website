@@ -10,7 +10,8 @@ return (
       <div className="gpt3__header-content">
         <h1 className="gradient__text">{content.bannerHead} &apos;</h1>
         <p>
-        {content.bannerText}
+        {content.bannerText} <br/><br/>
+        <b>Contract Adress :</b> 0xFA99777BD5A641f2065050646a70C8B22C11715E
         </p>
       </div>
   
