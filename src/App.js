@@ -24,12 +24,12 @@ import './App.css'
 // import Changelang from './components/lang/Changelang';
 
 function App () {
-  const [lang,setLang] = useState(langs.EN);
-  const [selectedLang,setSelectedLang] = useState("EN");
-  const changeLanguage = () => {
-    setSelectedLang(lang === "EN" ? "TR" : "EN");
-    lang === langs.EN ? setLang(langs.TR) : setLang(langs.EN);
-  }
+  const [lang] = useState(langs.EN);
+ // const [selectedLang,setSelectedLang] = useState("EN");
+ // const changeLanguage = () => {
+  //  setSelectedLang(lang === "EN" ? "TR" : "EN");
+ //   lang === langs.EN ? setLang(langs.TR) : setLang(langs.EN);
+ // }
   
   // const content = props.contents;
   // {content.}
