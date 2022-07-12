@@ -35,7 +35,10 @@ function App () {
   // {content.}
     return (
       <LangContext.Provider value={{lang}}>
-        <div className='App'>
+        <h1 style={{color:'red',textAlign:'center',marginTop:'20%'}}>
+          This website is temporarily unavailable.
+        </h1>
+        {/* <div className='App'>
           <div className="gradient__bg" id='Home'>
             <Changelang lang={selectedLang} contents={lang} changeLanguage={changeLanguage.bind(this)}/>
             <Navbar contents={lang}/>
@@ -50,7 +53,7 @@ function App () {
           <Roadmap contents={lang}/>
           <CTA contents={lang}/>
           <Footer contents={lang}/>
-        </div>
+        </div> */}
       </LangContext.Provider>
     )
 }
