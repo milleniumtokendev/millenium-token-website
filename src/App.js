@@ -7,21 +7,21 @@ import LangContext,{langs} from './context/locales/langContext';
 import './App.css'
 
 //Components
-import Navbar from './components/Navbar/Navbar';
-import Header from './sections/Header/Header';
-import WhatMILT from './sections/WhatMILT/WhatMILT';
-import Features from './sections/features/Features';
-import Video from './components/video/Video';
-import Possibility from './sections/possibility/Possibility';
-import CTA from './components/cta/CTA';
-import Footer from './sections/footer/Footer'
-import Tokenomic from './sections/tokenomic/Tokenomic';
-import Roadmap from './sections/roadmap/Roadmap';
+// import Navbar from './components/Navbar/Navbar';
+// import Header from './sections/Header/Header';
+// import WhatMILT from './sections/WhatMILT/WhatMILT';
+// import Features from './sections/features/Features';
+// import Video from './components/video/Video';
+// import Possibility from './sections/possibility/Possibility';
+// import CTA from './components/cta/CTA';
+// import Footer from './sections/footer/Footer'
+// import Tokenomic from './sections/tokenomic/Tokenomic';
+// import Roadmap from './sections/roadmap/Roadmap';
 
-//Video
-import video1 from './assets/fire.MP4';
-import video2 from './assets/ice.MP4';
-import Changelang from './components/lang/Changelang';
+// //Video
+// import video1 from './assets/fire.MP4';
+// import video2 from './assets/ice.MP4';
+// import Changelang from './components/lang/Changelang';
 
 function App () {
   const [lang,setLang] = useState(langs.EN);
